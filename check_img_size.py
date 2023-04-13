@@ -4,7 +4,7 @@ import cv2
 
 max_h = None
 max_w = None
-for img_path in Path('data/test_data/test_images').glob('*.jpg'):
+for img_path in Path('data/re_id').rglob('*.*'):
     img = cv2.imread(str(img_path))
     try:
         max_w = max(max_w, img.shape[1])

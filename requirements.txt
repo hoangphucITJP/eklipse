@@ -7,3 +7,5 @@ opencv-python
 git+https://github.com/lessw2020/Ranger21.git
 mlflow
 arrow
+imgaug
+torchmetrics

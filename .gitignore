@@ -1,0 +1,6 @@
+*.png
+*.jpg
+*.json
+*.txt
+*.pyc
+mlruns
